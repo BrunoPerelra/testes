@@ -1,0 +1,114 @@
+.btn-global {
+  color: white;
+  background-color: #03A1DC;
+  border-color: #03A1DC;
+}
+.btn-global:focus,
+.btn-global.focus {
+  color: white;
+  background-color: #086A87;
+  border-color: #03A1DC;
+}
+.btn-global:hover {
+  color: white;
+  background-color: #086A87;
+  border-color: #086A87;
+}
+.btn-global:active,
+.btn-global.active,
+.open > .dropdown-toggle.btn-global {
+  color: white;
+  background-color: #086A87;
+  border-color: #086A87;
+}
+.btn-global:active:hover,
+.btn-global.active:hover,
+.open > .dropdown-toggle.btn-global:hover,
+.btn-global:active:focus,
+.btn-global.active:focus,
+.open > .dropdown-toggle.btn-global:focus,
+.btn-global:active.focus,
+.btn-global.active.focus,
+.open > .dropdown-toggle.btn-global.focus {
+  color: white;
+  background-color: #d4d4d4;
+  border-color: #086A87;
+}
+.btn-global:active,
+.btn-global.active,
+.open > .dropdown-toggle.btn-global {
+  background-image: none;
+}
+.btn-global.disabled:hover,
+.btn-global[disabled]:hover,
+fieldset[disabled] .btn-global:hover,
+.btn-global.disabled:focus,
+.btn-global[disabled]:focus,
+fieldset[disabled] .btn-global:focus,
+.btn-global.disabled.focus,
+.btn-global[disabled].focus,
+fieldset[disabled] .btn-global.focus {
+  background-color: #03A1DC;
+  border-color: #086A87;
+}
+.btn-global .badge {
+  color: white;
+  background-color: #086A87;
+}
+.containertop {
+
+margin-top:40px;
+
+  margin: 0 auto;
+}
+
+.dados {
+margin-left: 30px;
+
+}
+
+.text-center .img-responsive {
+    margin: 0 auto;
+}
+
+.btsize {
+
+height: 50px;
+width: 150px;
+
+}
+
+
+
+body {background: #d3d3d3;}
+
+.trow{
+
+height: 50px ;
+
+}
+
+
+.veja {
+
+margin-top: 40px;
+
+
+}
+
+.etapasize {
+
+width: 200px;
+
+
+
+}
+
+
+
+
+#classsize {
+width: 200px;
+
+
+}

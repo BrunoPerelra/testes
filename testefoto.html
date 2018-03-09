@@ -1,0 +1,77 @@
+<html>
+    <head>
+<style type="text/css">
+body{
+    z-index:2;
+}
+
+.plano2{
+position: absolute;
+top: 0px;
+left: 0px;
+visibility: hidden;
+background: url("livro.jpg") repeat-y;
+background-color: ;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+
+.plano3{
+visibility: hidden;
+background: #FFFFFF;
+position: absolute;
+top: 50%;
+left: 50%;
+height: 400px;
+width: 600px;
+margin-top: -200px;
+margin-left: -300px;
+text-align: center;
+padding: 5 5 5 5px;
+border-style: solid;
+border-width: 5px;
+border-color: #1E679A;
+z-index: 3;
+}
+        </style>
+        <script type="text/javascript">
+                               //função para mostrar os elementos de 2º e 3º plano
+                        function mostra(){
+                document.getElementById('plano2').style.visibility="visible";
+                document.getElementById('plano3').style.visibility="visible";
+            }
+
+                        //função para esconder os elementos de 2º e 3º plano
+            function esconde(){
+                document.getElementById('plano2').style.visibility="hidden";
+                document.getElementById('plano3').style.visibility="hidden";
+            }
+            </script>
+
+<head>
+<title>Lightbox</title>
+</head>
+<body class="base">
+
+<input type="button" name="mostrar" value="mostrar" onclick="mostra();"/>
+
+
+  <!-- Esse div é o que ficará tampando o conteúdo principal-->
+  <div name="plano2" class="plano2" id="plano2"></div>
+
+  <!-- Esse é o div da janela modal, que aparecerá sobre toda a página-->
+  <div name="plano3" class="plano3" id="plano3">
+
+<br/>
+     <img src="teste.jpg" onClick="esconde();"/>
+  </div>
+
+
+</body>
+</html>
+
+
+
+
+
